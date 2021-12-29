@@ -7,11 +7,13 @@ app.MapGet("/api/users", () => {
     
     var user1 = new User("Enrique","Diaz",1980);
     var user2 = new User("Rodolfo","Perez",1975);
+    var user3 = new User("Pablito","Peñaloza",1995);
     
     var users = new List<User>();
 
     users.Add(user1);
     users.Add(user2);
+    users.Add(user3);
 
     return users;
 
